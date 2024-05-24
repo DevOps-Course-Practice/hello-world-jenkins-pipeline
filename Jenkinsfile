@@ -8,5 +8,10 @@ pipeline {
             }
 
         }
+        stage('DevOps'){
+            steps{
+                echo 'Hello DevOps'
+            }
+        }
     }
 }
