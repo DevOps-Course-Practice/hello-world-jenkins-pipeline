@@ -12,7 +12,7 @@ pipeline {
                 echo 'Hello DevOps'
             }
         }
-        stage('Hello') {
+        stage('Hello Welcome') {
             steps {
                 echo 'Hello World'
             }
