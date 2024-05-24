@@ -6,12 +6,19 @@ pipeline {
             steps {
                 echo 'Hello World'
             }
-
         }
         stage('DevOps'){
-            steps{
+            steps {
                 echo 'Hello DevOps'
             }
         }
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+
+        }
+
+
     }
 }
