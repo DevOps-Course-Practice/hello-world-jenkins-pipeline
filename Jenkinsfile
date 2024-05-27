@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hello installing') {
             steps {
                 echo 'sample step 01'
                 echo 'sample step 02'
@@ -10,13 +10,13 @@ pipeline {
             }
             
         }
-        stage('DevOps'){
+        stage('DevOps cleaning'){
             steps {
                 echo 'Hello DevOps'
                 echo 'sample step 02'
             }
         }
-        stage('Hello Welcome') {
+        stage('Hello Welcome packaging') {
             steps {
                 echo 'Hello World'
                 echo 'sample step 02'
